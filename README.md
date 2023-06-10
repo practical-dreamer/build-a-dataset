@@ -6,7 +6,9 @@
 
 A suite of tools designed for constructing complex and unique datasets by interacting with the OpenAI API. Initially conceived to generate datasets for character roleplay, this toolset can be adapted to fit a wide variety of use-cases.
 
-## Scripts
+## Scripts and Data Flow
+
+This suite uses a series of JSON files to pass data between the different scripts. Below, you can see each script along with its input and output files.
 
 1. **promptIt.py**: Generates an array of messages to be sent to the OpenAI API.
 
