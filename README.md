@@ -62,9 +62,11 @@ Included in the repository is `build-a-dataset_example1.sh`, a script demonstrat
 
 Please note that this is just one example of the multitude of applications for these scripts.
 
-## Contribute
+# Disclaimer
 
-This project welcomes contributions from the community. Feel free to create an issue or open a pull request.
+This project is currently under active development and may still contain bugs. While the scripts have been designed to work for a specific use case, extensive testing has yet to be performed. The functionality of the scripts can vary depending on the data and tasks. Please use them with this understanding. 
+
+I welcome contributions to improve this project. If you find any issues or have suggestions, please open an issue or submit a pull request.
 
 ## License
 
