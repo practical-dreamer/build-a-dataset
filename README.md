@@ -1,3 +1,5 @@
+![img-VU6PMyatFEM01cf5OdeQRMhr](https://github.com/practicaldreamer/build-a-dataset/assets/78515588/9759e352-7017-4f2e-b25c-97971cbcdc81)
+
 # Build-A-Dataset
 
 A powerful suite of tools designed for constructing complex and unique datasets by interacting with the OpenAI API. Initially conceived to generate datasets for role-playing characters, this toolset can be adapted to fit a wide variety of use-cases.
