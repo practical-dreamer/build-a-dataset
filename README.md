@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/practicaldreamer/build-a-dataset/assets/78515588/be24f281-48b8-44fb-912d-8663812cbf54" />
+  <img src="https://github.com/practicaldreamer/build-a-dataset/assets/78515588/79520f21-8d36-4431-b2bf-8574732dac5d" />
 </p>
 
 # Build-A-Dataset
