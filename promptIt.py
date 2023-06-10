@@ -67,7 +67,6 @@ if __name__ == '__main__':
     parser.add_argument("-first_prompt", help="First generated prompt", type=str, required=True)
     parser.add_argument("-next_prompt", help="Next generated prompt", type=str)
     parser.add_argument("-assistant_prompt", help="Beginning of assistant message", type=str)
-    parser.add_argument("-forget_lines", help="Number of last lines to forget in each object's last message", type=int)
     args = parser.parse_args()
     #args = parser.parse_args([  
         #"-input_json", "character_pair_moods_mixed",
