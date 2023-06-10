@@ -1,4 +1,6 @@
-![Screenshot from 2023-06-10 05-08-53](https://github.com/practicaldreamer/build-a-dataset/assets/78515588/e6142abc-df4a-41f8-aeed-c86899864110)
+<p align="center">
+  <img src="https://github.com/practicaldreamer/build-a-dataset/assets/78515588/673bca52-ee3d-4e6e-ae0a-c21bf7f5d8cf" />
+</p>
 
 # Build-A-Dataset
 
