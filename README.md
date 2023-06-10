@@ -4,7 +4,7 @@
 
 # Build-A-Dataset
 
-A suite of tools designed for constructing complex and unique datasets by interacting with the OpenAI API. Initially conceived to generate datasets for character roleplay, this toolset can be adapted to fit a wide variety of use-cases. Still under active development, may contain bugs. Contributions are welcome.
+A suite of tools designed for constructing complex and unique datasets by recursively interacting with the OpenAI API. Initially conceived to generate datasets for character roleplay, this toolset can be adapted to fit a wide variety of use-cases. Still under active development, may contain bugs. Contributions are welcome.
 
 ## Scripts and Data Flow
 
