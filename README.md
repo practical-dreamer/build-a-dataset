@@ -42,7 +42,7 @@ This suite uses a series of JSON files to pass data between the different script
 
 ## Environmental Variables
 
-The `askIt.py` script expects the following environment variables to be set:
+The `askIt.py` script expects the following environment variables to be set or passed via arguments:
 
 - `openai.api_key`: Your OpenAI API key.
 - `openai.api_base`: The base URL for the OpenAI API.
