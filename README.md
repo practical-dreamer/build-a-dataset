@@ -1,6 +1,6 @@
 # Build-A-Dataset
 
-A suite of tools designed for constructing complex and unique datasets by interacting with the OpenAI API. Initially conceived to generate datasets for role-playing characters, this toolset can be adapted to fit a wide variety of use-cases.
+A powerful suite of tools designed for constructing complex and unique datasets by interacting with the OpenAI API. Initially conceived to generate datasets for role-playing characters, this toolset can be adapted to fit a wide variety of use-cases.
 
 ## Scripts
 
@@ -41,9 +41,20 @@ The `askIt.py` script expects the following environment variables to be set:
 - `openai.api_key`: Your OpenAI API key.
 - `openai.api_base`: The base URL for the OpenAI API.
 
-## Usage
+## Example Usage: build-a-dataset.sh
 
-These scripts can be invoked individually, passing the output from one as the input to another. Alternatively, they can be chained together in a shell script.
+Included in the repository is `build-a-dataset.sh`, a script demonstrating a possible way to chain together these tools to build a comprehensive dataset of role-play conversations. It progresses through the following steps:
+
+1. Retrieving genres.
+2. Acquiring books from those genres.
+3. Extracting characters from those books.
+4. Randomly pairing characters.
+5. Gathering scenario moods.
+6. Mixing the character pairs with scenario moods.
+7. Generating scenarios based on these character pairs and moods.
+8. Creating roleplay conversations from the scenarios with moods and character pairs.
+
+Please note that this is just one example of the multitude of applications for these scripts.
 
 ## Contribute
 
