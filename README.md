@@ -17,6 +17,7 @@ This suite uses a series of JSON files to pass data between the different script
     ```
 
 2. **askIt.py**: Fills in responses using the OpenAI API.
+*threaded version does same thing without verbose terminal output and doesn't support compounding last objects messages... as this is serialized by nature... ideally will merge the two*
 
     ```bash
     python askIt.py -input_json <input_file> -output_json <output_file> -include_chat_history -max_chat_history <number> -resume -api_key <api_key> -api_url <api_url> -model <model> -temperature <value> -top_p <value> -presence_penalty <value> -frequency_penalty <value> -max_tokens <number>
