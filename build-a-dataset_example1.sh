@@ -219,4 +219,6 @@ assistant_prompt=$(cat <<'EOF'
 {character_name1}: *{conversation4}
 EOF
 )
-python promptIt.py  -input_json character_pair_scenarios_split4     -output_json RPGPT_PublicDomain_v1 -first_prompt "$first_prompt" -assistant_prompt "$assistant_prompt"
+python promptIt.py      -input_json character_pair_scenarios_split4     -output_json RPGPT_PublicDomain_v1_raw -first_prompt "$first_prompt" -assistant_prompt "$assistant_prompt"
+python conformIt.py     -input_json RPGPT_PublicDomain_v1_raw -format Alpaca
+python conformIt.py     -input_json RPGPT_PublicDomain_v1_raw -format ShareGPT
