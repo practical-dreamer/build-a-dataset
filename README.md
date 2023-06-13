@@ -40,7 +40,8 @@ This suite uses a series of JSON files to pass data between the different script
     ```bash
     python mixIt.py -input_json_big <big_input_file> -input_json_small <small_input_file> -output_json <output_file> -iterations <number>
     ```
-6. **conformIt.py**: Finalizes dataset by conforming a prompted script to alpaca or shareGPT format for training.
+    
+6. **conformIt.py**: Finalizes dataset by conforming to alpaca or shareGPT format for training.
 
     ```bash
     python conformIt.py -input_json <prompted_json> -output_json <formatted_json> -format <"Alpaca" or "ShareGPT">
