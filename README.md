@@ -8,9 +8,9 @@
 
 A suite of tools designed for constructing complex and unique datasets by recursively prompt-chaining responses from OpenAI API. Initially conceived to generate datasets for character roleplay, this toolset can be adapted to fit a wide variety of use-cases. Still under active development, may contain bugs. Contributions are welcome.
 
-*Sample output
-https://huggingface.co/datasets/practicaldreamer/RPGPT_PublicDomain-alpaca
-https://huggingface.co/datasets/practicaldreamer/RPGPT_PublicDomain-ShareGPT*
+*Sample output*
+*https://huggingface.co/datasets/practicaldreamer/RPGPT_PublicDomain-alpaca*
+*https://huggingface.co/datasets/practicaldreamer/RPGPT_PublicDomain-ShareGPT*
 
 ## Scripts and Data Flow
 
