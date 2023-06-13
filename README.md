@@ -17,7 +17,7 @@ This suite uses a series of JSON files to pass data between the different script
     ```
 
 2. **askIt.py**: Fills in responses using the OpenAI API.
-*threaded version does same thing without verbose terminal output and doesn't support compounding last objects messages... as this is serialized by nature... ideally will merge the two*
+*threaded version does same thing without verbose terminal output and doesn't support compounding last objects messages... as this is serialized by nature... I plan to merge the two*
 
     ```bash
     python askIt.py -input_json <input_file> -output_json <output_file> -include_chat_history -max_chat_history <number> -resume -api_key <api_key> -api_url <api_url> -model <model> -temperature <value> -top_p <value> -presence_penalty <value> -frequency_penalty <value> -max_tokens <number>
@@ -40,6 +40,11 @@ This suite uses a series of JSON files to pass data between the different script
     ```bash
     python mixIt.py -input_json_big <big_input_file> -input_json_small <small_input_file> -output_json <output_file> -iterations <number>
     ```
+6. **conformIt.py**: Finalizes dataset by conforming a prompted script to alpaca or shareGPT format for training.
+
+    ```bash
+    python conformIt.py -input_json <prompted_json> -output_json <formatted_json> -format <"Alpaca" or "ShareGPT">
+    ```
 
 ## Environmental Variables
 
@@ -48,9 +53,9 @@ The `askIt.py` script expects the following environment variables to be set or p
 - `openai.api_key`: Your OpenAI API key.
 - `openai.api_base`: The base URL for the OpenAI API.
 
-## Example Usage: build-a-dataset.sh
+## Example Usage: build-a-dataset_example_rpgptv1.sh
 
-Included in the repository is `build-a-dataset_example1.sh`, a script demonstrating a possible way to chain together these tools to build a comprehensive dataset of role-play conversations between characters in the public domain (think Sherlock Holmes and Peter Pan). It progresses through the following steps:
+Included in the repository is `build-a-dataset_example_rpgptv1.sh`, a script demonstrating a possible way to chain together these tools to build a comprehensive dataset of role-play conversations between characters in the public domain (think Sherlock Holmes and Peter Pan). It progresses through the following steps:
 
 1. Retrieving genres.
 2. Acquiring books from those genres.
@@ -60,6 +65,7 @@ Included in the repository is `build-a-dataset_example1.sh`, a script demonstrat
 6. Mixing the character pairs with scenario moods.
 7. Generating scenarios based on these character pairs and moods.
 8. Creating roleplay conversations from the scenarios with moods and character pairs.
+9. Conforming output to ShareGPT and Alpaca Formats
 
 Please note that this is just one example of the multitude of applications for these scripts.
 
