@@ -10,6 +10,8 @@ from concurrent.futures import ThreadPoolExecutor
 import threading
 import random
 
+#TODO: incorporate non-threaded features such as include previous chat and verbose messages to terminal
+
 def process_entry_thread(i, entry, args, output_data_len):
     # Lock is used to prevent interleaving of print statements from different threads
     print_lock = threading.Lock()
