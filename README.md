@@ -8,7 +8,7 @@
 
 *If you can "Build-A-Bear" you can Build-A-Dataset*
 
-A suite of tools designed for constructing complex and unique datasets without requiring advanced coding skills (everything is run from bash shell). Initially conceived to generate datasets for character roleplay, this toolset can be adapted to fit a wide variety of use-cases. Still under active development, may contain bugs. Contributions are welcome.
+A suite of tools designed for constructing complex and unique datasets without requiring advanced coding skills (everything is run from bash shell). This toolset can be adapted to fit a wide variety of use-cases. Still under active development, may contain bugs. Contributions are welcome.
 
 ## Sample Datasets
 *https://huggingface.co/datasets/practicaldreamer/RPGPT_PublicDomain-alpaca*
