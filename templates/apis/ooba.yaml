@@ -1,0 +1,7 @@
+base_url: http://localhost:5000,
+endpoint: /api/v1/generate,
+headers: 
+	Content-Type: application/json
+request_body: 
+	prompt: <|prompt.payload|>
+response_key: results[0].text

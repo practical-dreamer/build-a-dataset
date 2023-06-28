@@ -1,0 +1,9 @@
+user: "USER"
+bot: "ASSISTANT"
+turn_template: [
+  {"role": "<|user|>","content": "<|user-message|>"},
+  {"role": "<|bot|>",	"content": "<|bot-message|>"}
+]
+context: [
+  {"role": "SYSTEM","content": "You are a helpful assistant."}
+]
