@@ -64,7 +64,7 @@ The `askIt.py` script expects the following environment variables to be set or p
 
 ## Example Usage: build-a-dataset_example_rpgptv1.sh
 
-Included in the repository is `build-a-dataset_example_rpgptv1.sh`, a script demonstrating a possible way to chain together these tools to build a comprehensive dataset of role-play conversations between characters in the public domain (think Sherlock Holmes and Peter Pan). It progresses through the following steps:
+Included in the repository is `build-a-dataset_example_rpgptv1.sh`, a script demonstrating a possible way to chain together these tools to build a comprehensive dataset of character conversations in the public domain following an rp format (think Sherlock Holmes and Peter Pan). It progresses through the following steps:
 
 1. Retrieving genres.
 2. Acquiring books from those genres.
